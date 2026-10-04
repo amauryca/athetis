@@ -1,6 +1,6 @@
 # Athetis
 
-A personal-brand website inspired by amber metro departure boards. Black, orange, beige, and the supplied MUSICNET font.
+A minimal personal-brand website with a vertical destination menu, mechanical split-flap animations, and the supplied MUSICNET font. Black, orange, and beige.
 
 ## Run locally
 
@@ -14,7 +14,7 @@ Open http://localhost:8000.
 
 ## Pages
 
-- `dist/index.html`: home and animated departure board
+- `dist/index.html`: minimal home and animated destination menu
 - `dist/work/index.html`: filterable portfolio with expandable project details
 - `dist/about/index.html`: personal introduction
 - `dist/contact/index.html`: social links
@@ -29,8 +29,12 @@ Serve `dist` as the website root. Relative asset paths support GitHub Pages proj
 
 ## Assets
 
-MUSICNET.ttf was supplied by the owner; verify its license before distributing or using commercially. `platform.webp` is an AI-generated atmospheric metro image. No third-party scripts or tracking.
+MUSICNET.ttf was supplied by the owner; verify its license before distributing or using commercially. `platform.webp` is an unused AI-generated atmospheric metro image retained in the source. No third-party scripts or tracking.
 
 ## Accessibility
 
 Keyboard navigation, accessible project disclosures and filters, reduced-motion support, and a manual pause control are included.
+
+## Social links
+
+Add YouTube, Discord, and Twitch URLs to `socials` in `dist/assets/app.js`. Empty destinations show a coming-soon notice. The existing Instagram URL is preserved.
